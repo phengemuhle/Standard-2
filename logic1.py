@@ -9,7 +9,6 @@ run = True
 def logic1():
 
     global run
-    global previous
     digits = int(input("Number Multiplier:"))
     def products(number, num_digits):
         for start_index in range(0, len(number) - num_digits):
